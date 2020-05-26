@@ -15,7 +15,7 @@ public class IterateOverObject<T> {
 		try {
 			IterateOverObject<Coder> itrr = new IterateOverObject<>(); 
 			itrr.printAllField(coder);
-		} catch (IllegalArgumentException | IllegalAccessException e) {
+		} catch (IllegalArgumentException | IllegalAccessException e) { 
 			e.printStackTrace();
 		}
 		Language lang = new Language("HP", 6);
