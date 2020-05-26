@@ -13,7 +13,7 @@ public class IterateOverObject<T> {
 		//System.out.println(coder.getClass().getSimpleName());
 		
 		try {
-			IterateOverObject<Coder> itrr = new IterateOverObject<>();
+			IterateOverObject<Coder> itrr = new IterateOverObject<>(); 
 			itrr.printAllField(coder);
 		} catch (IllegalArgumentException | IllegalAccessException e) {
 			e.printStackTrace();
